@@ -1,0 +1,191 @@
+    body>table {
+        width: 70%;
+    }
+    
+    .rigth {
+        float: right;
+        width: 35%;
+        margin: 32px;
+        padding: 32px;
+        display: flex;
+    }
+    
+    .rigth-bt {
+        float: right;
+        width: 15%;
+        margin: 32px;
+        display: flex;
+    }
+    
+    .left {
+        width: 30%;
+        margin-left: 4%;
+        margin-top: 3%;
+        float: left;
+        display: flex;
+    }
+    
+    .imgP {
+        height: 100%;
+        width: 100%;
+        float: right;
+        display: flex;
+        position: relative;
+    }
+    
+    .bt {
+        float: right;
+        position: absolute;
+        display: flex;
+        left: 100px;
+        margin-top: 40%;
+        left: 70%;
+    }
+    
+    .logo {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        display: flex;
+        margin: 0.3%;
+    }
+    
+    label {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        color: #344054;
+        margin: 3%;
+    }
+    
+    h1 {
+        position: relative;
+        width: 90%;
+        height: 90%;
+        left: 16px;
+        top: 32px;
+        font-family: 'Abril Fatface', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150px;
+        line-height: 96.4%;
+        display: flex;
+        align-items: flex-end;
+        color: #222831;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 3%
+    }
+    
+    table.list {
+        width: 95%;
+    }
+    
+    td,
+    th {
+        height: 12px;
+        border-bottom: 0.6px solid #dddddd;
+        border-right: 0.6px solid #dddddd;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+        align-items: center;
+        padding: 8px;
+    }
+    
+    #botao {
+        margin-left: 1%;
+        padding: 16px;
+        border-radius: 10px;
+        background-color: #344054;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        color: #ddd;
+    }
+    
+    input[type=text],
+    input[type=number] {
+        width: 95%;
+        margin: 3%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #D0D5DD;
+        box-sizing: border-box;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    h2 {
+        position: static;
+        width: 127px;
+        height: 60px;
+        margin: 3%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -0.02em;
+        color: #344054;
+        flex: none;
+        order: 0;
+    }
+    
+    input[type=submit] {
+        width: 30%;
+        background-color: #ddd;
+        color: #000;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=button] {
+        padding: 16px;
+        border-radius: 10px;
+        background-color: #ddd;
+        color: #000;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    form div.form-action-buttons {
+        text-align: right;
+    }
+    
+    a {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0000ee;
+        margin-right: 4px;
+    }
+    
+    label.validation-error {
+        color: red;
+        margin-left: 5px;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    img {
+        margin-left: 3%;
+        margin-right: 0.3%;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2=:wght@600&family=Solway:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');

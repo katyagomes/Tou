@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        ToU- CRUD (Create, Read, Update, Delete)
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header><img class="logo" src="img/logo.svg"></header>
+    <h2>Disciplinas</h2>
+
+    <form id="form" onsubmit="event.preventDefault();" autocomplete="off">
+        <div>
+            <label>Nome</label><label class="validation-error hide" id="nomeValidationError">Campo obrigatório.</label>
+            <input type="text" required="required" name="nome" id="nome">
+        </div>
+        <div>
+            <label>Nivel Dificuldade</label>
+            <input type="text" name="dificuldade" id="dificuldade">
+        </div>
+        <div>
+            <label>Média</label>
+            <input type="text" name="media" id="media">
+        </div>
+
+        <div>
+            <label for="listTarefas">Tarefas</label>
+            <select name="listTarefas" id="listTarefas">
+                        </select>
+            <input type="button" value="Incluir Tarefas" id="botaoTarefa" name="botaoTarefa">
+        </div>
+        <div>
+            <label for="tarefas">Tarefas da Disciplina</label>
+            <select name="tarefas" id="tarefas" multiple>
+                        </select>
+        </div>
+        <div class="rigth-bt">
+            <input type="button" value="Gravar" id="botao" name="botao">
+            <input type="button" value="Limpar" id="limpar" name="limpar">
+        </div>
+    </form>
+
+    <table class="list" id="lista">
+        <thead>
+            <tr>
+                <th style="background-color: #DDDDDD;">Nome</th>
+                <th style="background-color: #DDDDDD;">Nivel de dificuldade</th>
+                <th style="background-color: #DDDDDD;">Média</th>
+                <th style="background-color: #DDDDDD;"></th>
+                <th style="background-color: #DDDDDD;"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    </table>
+    <br>
+    <a href="index.html"> <img src="img/btVoltar.svg" alt="Voltar"></a>
+    <a href="https://lifeat.io/?space=448"> <img src="img/btSalaDeEstudos.svg" alt="Sala de Estudos"></a>
+    <script src="js/classes.js"></script>
+    <script src="js/scriptDisc.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Tou - CRUD (Create, Read, Update, Delete)
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header><img class="logo" src="img/logo.svg"></header>
+
+    <h2>Tarefas</h2>
+
+    <form id="form">
+        <div>
+            <label>Nome</label>
+            <input type="text" required="required" name="nome" id="nome">
+        </div>
+        <div>
+            <label>Prazo</label>
+            <input type="date" name="prazo" id="prazo">
+        </div>
+        <div>
+            <label>Local de entrega</label>
+            <input type="text" name="localEntrega" id="localEntrega">
+        </div>
+        <div class="rigth-bt">
+            <input type="button" value="Gravar" id="botao" name="botao">
+            <input type="button" value="Limpar" id="limpar" name="limpar">
+        </div>
+    </form>
+
+    <table class="list" id="lista">
+        <thead>
+            <tr>
+                <th style="background-color: #DDDDDD;">Nome</th>
+                <th style="background-color: #DDDDDD;">Prazo</th>
+                <th style="background-color: #DDDDDD;">Local de entrega</th>
+                <th style="background-color: #DDDDDD;"></th>
+                <th style="background-color: #DDDDDD;"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    </table>
+    <br>
+    <div>
+        <a href="disciplinas.html"> <img src="img/btIr.svg" alt=""></a>
+    </div>
+    <script src="js/classes.js"></script>
+    <script src="js/script_tarefas.js"></script>
+</body>
+
+</html>
